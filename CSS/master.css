@@ -495,7 +495,7 @@ ul {
   width: 2px;
   height: 100%;
   background-color: var(--blue-color);
-  left: 11px;
+  left: 10px;
 }
 
 .last-project ul li::before {
@@ -903,7 +903,7 @@ ul {
   background-color: #f9f9f9;
 }
 .profile-page .info .box > div {
-  min-width: 250px;
+  min-width: 200px;
   padding: 10px 0 0;
 }
 .profile-page .info .box > h3 {
@@ -1012,6 +1012,7 @@ ul {
   position: absolute;
   right: 10px;
   top: 10px;
+  /* padding-bottom: 35px; */
 }
 .project-page .project h4 {
   font-weight: normal;
@@ -1153,6 +1154,11 @@ ul {
     margin-left: 10px;
     gap: 10px;
   }
+  .friends-page .info > div {
+    justify-content: space-between;
+    display: flex;
+    column-gap: 12px;
+  }
 }
 
 .friends-page .friend .contact {
@@ -1277,6 +1283,9 @@ ul {
     margin-left: 10px;
     gap: 10px;
   }
+  .plan-page a {
+    padding: 10px 20px;
+  }
 }
 .plan-page .plan .top {
   border: 3px solid white;
@@ -1331,5 +1340,10 @@ ul {
   padding: 15px 25px;
   border-radius: 15px;
   font-size: 18px;
+}
+@media (max-width: 767px) {
+  .plan-page a {
+    padding: 10px 20px;
+  }
 }
 /* end plans  */
